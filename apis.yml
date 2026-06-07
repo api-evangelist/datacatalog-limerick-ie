@@ -1,0 +1,57 @@
+aid: datacatalog-limerick-ie
+name: Limerick Open Data Catalogue
+description: >-
+  Limerick Open Data Catalogue is a municipal government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 82 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datacatalog-limerick-ie/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Municipal Government
+  - Ireland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datacatalog-limerick-ie:catalog
+    name: Limerick Open Data Catalogue CKAN Action API
+    description: >-
+      CKAN Action API for Limerick Open Data Catalogue, ~82 datasets. Base URL https://datacatalog.limerick.ie/api/3/action/.
+    humanURL: https://datacatalog.limerick.ie
+    baseURL: https://datacatalog.limerick.ie/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datacatalog.limerick.ie
+      - type: x-api-endpoint
+        url: https://datacatalog.limerick.ie/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.14'
+common:
+  - type: Website
+    url: https://datacatalog.limerick.ie
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datacatalog-limerick-ie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datacatalog-limerick-ie-rate-limits.yml
+  - type: FinOps
+    url: finops/datacatalog-limerick-ie-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

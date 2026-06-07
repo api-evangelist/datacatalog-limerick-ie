@@ -1,0 +1,11 @@
+name: Limerick Open Data Catalogue
+url: https://raw.githubusercontent.com/api-evangelist/datacatalog-limerick-ie/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.9.14), ~82 datasets.
+    endpoints:
+      - url: https://datacatalog.limerick.ie/api/3/action/status_show
+        status: 200
